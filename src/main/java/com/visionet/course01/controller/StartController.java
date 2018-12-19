@@ -1,4 +1,4 @@
-package com.siebre.course01.controller;
+package com.visionet.course01.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

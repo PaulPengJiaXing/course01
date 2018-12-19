@@ -1,4 +1,4 @@
-package com.siebre.course01.model;
+package com.visionet.course01.model;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModel;

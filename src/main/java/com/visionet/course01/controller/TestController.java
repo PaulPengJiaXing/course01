@@ -1,4 +1,4 @@
-package com.siebre.course01.controller;
+package com.visionet.course01.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

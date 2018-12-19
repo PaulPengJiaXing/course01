@@ -1,4 +1,4 @@
-package com.siebre.course01.utils;
+package com.visionet.course01.utils;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

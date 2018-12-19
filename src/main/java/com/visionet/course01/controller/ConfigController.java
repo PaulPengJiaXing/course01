@@ -1,6 +1,6 @@
-package com.siebre.course01.controller;
+package com.visionet.course01.controller;
 
-import com.siebre.course01.utils.MicroServiceUrl;
+import com.visionet.course01.utils.MicroServiceUrl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

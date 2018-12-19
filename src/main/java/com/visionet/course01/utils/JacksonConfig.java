@@ -1,4 +1,4 @@
-package com.siebre.course01.utils;
+package com.visionet.course01.utils;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;

@@ -1,4 +1,4 @@
-package com.siebre.course01;
+package com.visionet.course01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -18,7 +18,7 @@
             <pattern>${LOG_PATTERN}</pattern>
         </encoder>
     </appender>
-    <logger name="com.siebre.course01" level="INFO"/>
+    <logger name="com.visionet.course01" level="INFO"/>
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>

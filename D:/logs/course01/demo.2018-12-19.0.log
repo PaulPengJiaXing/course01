@@ -1,0 +1,63 @@
+15:40:28.907 [main] INFO  c.v.course01.Course01Application - Starting Course01Application on visionetdeMacBook-Pro.local with PID 10520 (/Users/visionet/IdeaProjects/course01/target/classes started by visionet in /Users/visionet/IdeaProjects/course01)
+15:40:28.912 [main] INFO  c.v.course01.Course01Application - The following profiles are active: prod
+15:40:29.016 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f5ac9e4: startup date [Wed Dec 19 15:40:29 CST 2018]; root of context hierarchy
+15:40:30.991 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+15:40:31.003 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+15:40:31.013 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:40:31.014 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+15:40:31.019 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/visionet/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15:40:31.102 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:40:31.102 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2087 ms
+15:40:31.156 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:40:31.159 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:40:31.160 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:40:31.160 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:40:31.160 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:40:31.669 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testConfig]}" onto public java.lang.String com.visionet.course01.controller.ConfigController.testConfig()
+15:40:31.675 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception/test],methods=[POST]}" onto public com.visionet.course01.utils.JsonResult com.visionet.course01.controller.ExceptionController.test(java.lang.String,java.lang.String)
+15:40:31.676 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/exception/nullpointtest],methods=[GET]}" onto public com.visionet.course01.utils.JsonResult com.visionet.course01.controller.ExceptionController.testNullPoint()
+15:40:31.677 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json/map]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.visionet.course01.controller.JsonController.getMap()
+15:40:31.678 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json/list]}" onto public java.util.List<com.visionet.course01.model.User> com.visionet.course01.controller.JsonController.getUserList()
+15:40:31.678 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/json/user]}" onto public com.visionet.course01.model.User com.visionet.course01.controller.JsonController.getUser()
+15:40:31.679 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsonresult/map]}" onto public com.visionet.course01.utils.JsonResult<java.util.Map> com.visionet.course01.controller.JsonResultController.getMap()
+15:40:31.680 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsonresult/list]}" onto public com.visionet.course01.utils.JsonResult<java.util.List> com.visionet.course01.controller.JsonResultController.getUserList()
+15:40:31.680 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsonresult/user]}" onto public com.visionet.course01.utils.JsonResult<com.visionet.course01.model.User> com.visionet.course01.controller.JsonResultController.getUser()
+15:40:31.681 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/start/springboot]}" onto public java.lang.String com.visionet.course01.controller.StartController.startSpringBoot()
+15:40:31.681 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/log]}" onto public java.lang.String com.visionet.course01.controller.TestController.testLog()
+15:40:31.682 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger/get/{id}],methods=[GET]}" onto public com.visionet.course01.utils.JsonResult<com.visionet.course01.model.User> com.visionet.course01.controller.TestSwaggerController.getUserInfo(java.lang.Long)
+15:40:31.683 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger/insert],methods=[POST]}" onto public com.visionet.course01.utils.JsonResult com.visionet.course01.controller.TestSwaggerController.insertUser(com.visionet.course01.model.User)
+15:40:31.684 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf/test404]}" onto public java.lang.String com.visionet.course01.controller.ThymeleafController.test404()
+15:40:31.684 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf/test500]}" onto public java.lang.String com.visionet.course01.controller.ThymeleafController.test500()
+15:40:31.685 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf/getBlogger],methods=[GET]}" onto public java.lang.String com.visionet.course01.controller.ThymeleafController.getBlogger(org.springframework.ui.Model)
+15:40:31.685 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf/getList],methods=[GET]}" onto public java.lang.String com.visionet.course01.controller.ThymeleafController.getList(org.springframework.ui.Model)
+15:40:31.690 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+15:40:31.691 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+15:40:31.691 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+15:40:31.696 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+15:40:31.697 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:40:31.901 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+15:40:32.023 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:40:32.098 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f5ac9e4: startup date [Wed Dec 19 15:40:29 CST 2018]; root of context hierarchy
+15:40:32.144 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:40:32.144 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:40:32.156 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+15:40:32.363 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+15:40:32.372 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+15:40:32.373 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+15:40:32.419 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+15:40:32.462 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+15:40:32.496 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+15:40:32.522 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:40:32.538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path ''
+15:40:32.701 [main] INFO  c.v.course01.Course01Application - Started Course01Application in 4.461 seconds (JVM running for 6.446)
+15:41:34.678 [http-nio-8002-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+15:41:34.681 [http-nio-8002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+15:41:34.706 [http-nio-8002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+15:41:34.739 [http-nio-8002-exec-1] INFO  c.v.c.controller.TestController - ===========测试日志info级别打印============
+15:41:34.739 [http-nio-8002-exec-1] ERROR c.v.c.controller.TestController - ===========测试日志error级别打印============
+15:41:34.740 [http-nio-8002-exec-1] WARN  c.v.c.controller.TestController - ===========测试日志warn级别打印============
+15:41:34.740 [http-nio-8002-exec-1] INFO  c.v.c.controller.TestController - =========paul's 个人博客:blog.itcodai.com;paul's csdn 博客：blog.csdn.com
+15:42:02.288 [http-nio-8002-exec-2] INFO  c.v.c.controller.TestController - ===========测试日志info级别打印============
+15:42:02.289 [http-nio-8002-exec-2] ERROR c.v.c.controller.TestController - ===========测试日志error级别打印============
+15:42:02.289 [http-nio-8002-exec-2] WARN  c.v.c.controller.TestController - ===========测试日志warn级别打印============
+15:42:02.289 [http-nio-8002-exec-2] INFO  c.v.c.controller.TestController - =========paul's 个人博客:blog.itcodai.com;paul's csdn 博客：blog.csdn.com

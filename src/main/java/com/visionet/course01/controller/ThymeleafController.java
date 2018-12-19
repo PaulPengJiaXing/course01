@@ -1,6 +1,6 @@
-package com.siebre.course01.controller;
+package com.visionet.course01.controller;
 
-import com.siebre.course01.model.Blogger;
+import com.visionet.course01.model.Blogger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,7 +1,7 @@
-package com.siebre.course01.controller;
+package com.visionet.course01.controller;
 
-import com.siebre.course01.model.User;
-import com.siebre.course01.utils.JsonResult;
+import com.visionet.course01.model.User;
+import com.visionet.course01.utils.JsonResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;

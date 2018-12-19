@@ -1,4 +1,4 @@
-package com.siebre.course01.model;
+package com.visionet.course01.model;
 
 public class Blogger {
 
