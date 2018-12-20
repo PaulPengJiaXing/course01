@@ -61,3 +61,18 @@
 15:42:02.289 [http-nio-8002-exec-2] ERROR c.v.c.controller.TestController - ===========测试日志error级别打印============
 15:42:02.289 [http-nio-8002-exec-2] WARN  c.v.c.controller.TestController - ===========测试日志warn级别打印============
 15:42:02.289 [http-nio-8002-exec-2] INFO  c.v.c.controller.TestController - =========paul's 个人博客:blog.itcodai.com;paul's csdn 博客：blog.csdn.com
+16:31:05.804 [http-nio-8002-exec-10] INFO  c.v.c.controller.ConfigController - =========获取订单服务地址为:https://b2bitxtest.cpic.com.cn/itx/
+16:31:05.807 [http-nio-8002-exec-10] INFO  c.v.c.controller.ConfigController - =========获取订单服务地址为:https://b2bitxtest.cpic.com.cn/itx/
+16:31:05.807 [http-nio-8002-exec-10] INFO  c.v.c.controller.ConfigController - =========获取用户服务地址为:https://userUrl
+16:31:05.808 [http-nio-8002-exec-10] INFO  c.v.c.controller.ConfigController - =========获取购物服务地址为:https://shoppingUrl
+16:33:03.002 [http-nio-8002-exec-2] INFO  c.v.c.controller.ConfigController - =========获取订单服务地址为:https://b2bitxtest.cpic.com.cn/itx/
+16:33:03.003 [http-nio-8002-exec-2] INFO  c.v.c.controller.ConfigController - =========获取订单服务地址为:https://b2bitxtest.cpic.com.cn/itx/
+16:33:03.003 [http-nio-8002-exec-2] INFO  c.v.c.controller.ConfigController - =========获取用户服务地址为:https://userUrl
+16:33:03.003 [http-nio-8002-exec-2] INFO  c.v.c.controller.ConfigController - =========获取购物服务地址为:https://shoppingUrl
+16:36:12.038 [http-nio-8002-exec-4] INFO  c.v.c.controller.ConfigController - =========获取订单服务地址为:https://b2bitxtest.cpic.com.cn/itx/
+16:36:12.038 [http-nio-8002-exec-4] INFO  c.v.c.controller.ConfigController - =========获取订单服务地址为:https://b2bitxtest.cpic.com.cn/itx/
+16:36:12.038 [http-nio-8002-exec-4] INFO  c.v.c.controller.ConfigController - =========获取用户服务地址为:https://userUrl
+16:36:12.038 [http-nio-8002-exec-4] INFO  c.v.c.controller.ConfigController - =========获取购物服务地址为:https://shoppingUrl
+16:47:14.410 [Thread-14] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f5ac9e4: startup date [Wed Dec 19 15:40:29 CST 2018]; root of context hierarchy
+16:47:14.434 [Thread-14] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+16:47:14.438 [Thread-14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
